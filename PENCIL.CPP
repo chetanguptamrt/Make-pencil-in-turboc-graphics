@@ -19,7 +19,10 @@ void main()
 		gotoxy(2,2);
 		printf("%d  %3dx%3d",click,xpos,ypos);
 		if(click==1)
-		lineto(xpos,ypos);
+			//there aare two way to drow line
+			lineto(xpos,ypos);
+			//or
+			//putpixel(xpos,ypos,WHITE);
 	}
 	getch();
 }
